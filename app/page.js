@@ -1,7 +1,7 @@
 'use client'
 
 import WebcamSection from '../components/WebcamSection'
-import ChatSection from '../components/ChatSection'
+import ChatSection from '../components/interview/ChatSection'
 
 export default function Home() {
   return (
