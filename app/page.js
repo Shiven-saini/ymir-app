@@ -5,22 +5,22 @@ import ChatSection from '../components/ChatSection'
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-900 to-gray-800 text-gray-100">
-      <div className="absolute w-full h-full inset-0 bg-[url('/grid.svg')] bg-repeat opacity-10 pointer-events-none"></div>
+    <main className="min-h-screen bg-zinc-950 text-zinc-100">
       <div className="container mx-auto py-8 px-4 relative">
         <header className="mb-12 text-center">
-          <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-blue-500 mb-2 inline-block">
+          <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-500 mb-2 inline-block">
             AI Mock Interview Assistant
           </h1>
-          <p className="text-gray-400 max-w-xl mx-auto">Desription doesn't really matter at this moment of development.</p>
+          <p className="text-zinc-400 max-w-xl mx-auto">Perfect your interview skills with our advanced AI-powered practice tool</p>
         </header>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          <div className="flex flex-col">
+        {/* Adjusted grid to make chat section wider */}
+        <div className="grid grid-cols-12 gap-6">
+          <div className="col-span-5">
             <WebcamSection />
           </div>
           
-          <div className="flex flex-col h-[650px]">
+          <div className="col-span-7">
             <ChatSection />
           </div>
         </div>
