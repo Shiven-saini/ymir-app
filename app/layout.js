@@ -1,8 +1,11 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'AI Mock Interview Assistant',
-  description: 'Practice interviews with AI assistance',
+  title: 'Yet Another Mock Interview Revision Assistant',
+  description: 'Does it even matter?',
+  icons: {
+    icon: '/profile.png',
+  },
 }
 
 export default function RootLayout({ children }) {
